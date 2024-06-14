@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Container = styled.div`
   display: flex;
@@ -22,21 +22,18 @@ export const Location = styled.div`
   width: 8.938rem;
   height: 2.375rem;
 
-  gap:0.25rem;
+  gap: 0.25rem;
   font-weight: 400;
   line-height: 160%;
   font-size: 0.875rem;
 
-  background: ${props => props.theme["purple-light"]};
-  color: ${props => props.theme["purple-dark"]};
+  background: ${(props) => props.theme['purple-light']};
+  color: ${(props) => props.theme['purple-dark']};
 
   border-radius: 6px;
-
 `
 
-
 export const ButtonCart = styled.button`
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -44,9 +41,8 @@ export const ButtonCart = styled.button`
   width: 2.375rem;
   height: 2.375rem;
 
-  background: ${props => props.theme["yellow-light"]};
-  color: ${props => props.theme["yellow-dark"]};
+  background: ${(props) => props.theme['yellow-light']};
+  color: ${(props) => props.theme['yellow-dark']};
 
   border-radius: 6px;
-
 `
